@@ -26,14 +26,14 @@ This project demonstrates:
 
 ## Data Layers
 
-1. Raw Layer
+Raw Layer
 
 - Direct CSV ingestion
 - No cleaning
 - Stored exactly as received
 - Ingested using BULK INSERT
 
-2. Staging Layer
+Staging Layer
 
 Cleaning:
 - Removed double-quoted address fields
@@ -41,7 +41,7 @@ Cleaning:
 - Trimmed and standardized text fields
 - Fixed encoding / UTF-8 issues
 
-3. Star Schema
+Star Schema
 
 Dimensions created:
 - dim_customer
