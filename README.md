@@ -58,6 +58,9 @@ Fact table:
 - Duplicate key checks
 - Referential integrity on foreign keys
 
+All queries are in:
+`validation.sql`
+
 ## Analytical Queries
 
 - Total Revenue Per Month
@@ -65,6 +68,9 @@ Fact table:
 - Revenue by Product Category
 - Best-Selling products
 - On-Time Shipping Rate
+
+All queries are in:
+`Business Analytics.sql`
 
 ## Performance Tuning & Query Improvements
 
