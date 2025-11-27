@@ -1,1 +1,4 @@
-
+- Realised the importance of looking at the data for inconsistencies and inserting it in the correct formats as I experienced a few issues with the BULK INSERT query.
+- Realised the importance of staging layers for cleaning, keeps things neat and tidy and allows you to compare tables to ensure everything has been carried over.
+- Creating dimensions helps simplify business logic. It made JOINs very accessible as the dates were populated in one table, this allowed me to carry out business analysis easily.
+- I can now build a simple ELT pipeline in pure SQL
