@@ -71,8 +71,6 @@ Fact table:
 - For this particular project, performance tuning was not necessarily required/needed as it was more focused on ETL and then performing some cleaning and transformation on the data to get some insights and validation.
 - CTEs and Window functions were not really used in the business analysis as it was very high level, as mentioned before, the focus was Data Engineering rather than analysis.
 
----
-
 ## Lessons Learned
 
 - Realised the importance of looking at the data for inconsistencies and inserting it in the correct formats as I experienced a few issues with the BULK INSERT query.
